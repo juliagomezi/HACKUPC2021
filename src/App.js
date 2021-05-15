@@ -1,3 +1,5 @@
+import React, { Component } from 'react';
+
 import logo from './logo.svg';
 import './App.css';
 import react from 'react';
@@ -12,7 +14,7 @@ const client = new MongoClient(url, { useNewUrlParser: true, useUnifiedTopology:
  // The database to use
  const dbName = "hackupc2021";
 
-class App extends React.Component{
+class App extends Component {
 
 	render() {
 		return (
