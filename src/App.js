@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import react from 'react';
+import Main from './Main.js';
 
 const { MongoClient } = require("mongodb");
  
@@ -15,9 +16,9 @@ class App extends React.Component{
 
 	render() {
 		return (
-			<h1>Hello, world!</h1>
-		)	
-	}	
+			<Main/>
+		)
+	}
 }
 
 export default App;
