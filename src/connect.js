@@ -18,7 +18,7 @@ const client = new MongoClient(url, { useNewUrlParser: true, useUnifiedTopology:
 
          // Construct a document
          let personDocument = {
-             "user": "Alonso",
+             "user": "Joanet",
          }
 
          // Insert a single document, wait for promise so we can read it back
