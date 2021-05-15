@@ -27,12 +27,16 @@
 	margin-bottom: 12px;
 }
 
-.caca {
-	background-color: blueviolet;
-}
-
 .fab {
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
+}
+
+.completed {
+	background-color: rgb(211, 211, 211) !important;
+}
+
+.uncompleted {
+	background-color: white !important;
 }
